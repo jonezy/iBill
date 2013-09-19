@@ -1,0 +1,10 @@
+bin
+obj
+*.suo
+*.user
+*.*~
+*.s3db
+*.nuspec
+*.nupkg
+*.swp
+packages/

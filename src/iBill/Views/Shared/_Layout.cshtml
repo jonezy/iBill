@@ -1,0 +1,17 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Public/css/base-css")
+</head>
+<body>
+    <div class="container">
+      @RenderBody()
+    </div>
+
+    @Scripts.Render("~/Public/css/base-js")
+</body>
+</html>
