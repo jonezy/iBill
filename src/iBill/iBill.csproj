@@ -122,6 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SecurityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\EntitiesModel.cs">
       <AutoGen>True</AutoGen>
@@ -137,6 +140,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Areas\Admin\Public\css\login.css" />
     <Content Include="Data\EntitiesModel.rlinq.diagram">
       <DependentUpon>EntitiesModel.rlinq</DependentUpon>
     </Content>
@@ -150,6 +154,10 @@
     <Content Include="Public\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Public\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Public\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\Admin\Views\Web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_LoginLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Security\Login.cshtml" />
     <None Include="Public\js\vendor\jquery-1.9.1.intellisense.js" />
     <Content Include="Public\js\vendor\bootstrap.js" />
     <Content Include="Public\js\vendor\bootstrap.min.js" />
@@ -169,6 +177,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Dashboard\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

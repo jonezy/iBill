@@ -10,12 +10,15 @@ namespace iBill {
     public static void RegisterBundles(BundleCollection bundles) {
 
       bundles.Add(new ScriptBundle("~/bundles/base-js").Include(
-        "~/Public/js/vendor/jquery-1.9.2.min.js",
+        "~/Public/js/vendor/jquery-1.9.1.min.js",
         "~/Public/js/vendor/bootstrap.min.js"));
 
       bundles.Add(new StyleBundle("~/Public/css/base-css").Include(
         "~/Public/css/vendor/bootstrap.min.css",
         "~/Public/css/iBill.css"));
+
+      bundles.Add(new StyleBundle("~/Admin/Public/css/admin-login-css").Include(
+        "~/Areas/Admin/Public/css/login.css"));
     }
   }
 }
