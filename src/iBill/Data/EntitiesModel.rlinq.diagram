@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDiagrams>
+  <entityDiagramsDiagram dslVersion="2.0.0.0" absoluteBounds="0, 0, 11, 18.25" name="EntitiesModel" isDefault="true">
+    <DomainModelMoniker name="/iBillEntities" />
+    <nestedChildShapes>
+      <classShape Id="dfda8e6a-8d07-4104-8cf1-d2eb089d4593" absoluteBounds="6.5, 8.375, 1.5, 5.6897534179687472" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/User" />
+        <nestedChildShapes>
+          <elementListCompartment Id="6b42ecf3-522c-4b07-8bb0-2a73f6ce6fd8" absoluteBounds="6.515, 8.885, 1.4700000000000002, 4.3161417643229161" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="1c889697-e724-4a66-bd6c-45bcb63b2fb6" absoluteBounds="6.515, 13.211141764322916, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="07d31646-fc0a-4f46-9efb-a52dc90c9488" absoluteBounds="6.515, 13.428600260416665, 1.4700000000000002, 0.536153157552083" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="6511ca7f-6dce-4860-8158-12fabb7a9aa0" absoluteBounds="2.5, 8.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/System" />
+        <nestedChildShapes>
+          <elementListCompartment Id="0f1ea240-7607-48f4-ace0-91ee6f9e7960" absoluteBounds="2.515, 8.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="9931d95c-4894-425e-ad67-bc95eb72041e" absoluteBounds="2.515, 9.4311531575520835, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="c2340db1-3c1e-4f8f-a32d-27139c9b1ce0" absoluteBounds="2.515, 9.6486116536458333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="4adbe591-cd06-4ff2-abe6-ed02754f8b63" absoluteBounds="4.5, 13.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Status" />
+        <nestedChildShapes>
+          <elementListCompartment Id="39d2ba30-3c24-45d9-a51f-552c5ef06924" absoluteBounds="4.515, 13.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="35cc3063-325f-40e3-ac98-25041973da22" absoluteBounds="4.515, 14.431153157552084, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="75a41fd4-928c-43f6-ba33-fb3af1d53f90" absoluteBounds="4.515, 14.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="5a7667b9-c662-4552-b4a9-35723eb10c02" absoluteBounds="2.5, 10.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Specialitycode" />
+        <nestedChildShapes>
+          <elementListCompartment Id="6e300a99-b240-4078-b1a7-62dcc057b87b" absoluteBounds="2.515, 10.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="a8043dc0-ddd9-4f3b-977c-423a75515ce4" absoluteBounds="2.515, 11.431153157552084, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="52a316a9-c569-4caf-9d61-dc2c0857893a" absoluteBounds="2.515, 11.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="a1ba9887-f430-489a-bdaa-40ba6851aa6f" absoluteBounds="6.5, 9.375, 1.5, 5.5254060872395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Scheduleofbenefit" />
+        <nestedChildShapes>
+          <elementListCompartment Id="b938fb7d-4f66-4c41-a529-ed1640a3952e" absoluteBounds="6.515, 9.885, 1.4700000000000002, 4.480489095052083" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="469e9954-dcc5-4e99-8b1b-22e04abe4966" absoluteBounds="6.515, 14.375489095052082, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="67d2cd90-5bcd-4f9e-a2c4-5d40215a1e16" absoluteBounds="6.515, 14.592947591145833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="f0c25d8e-cfde-4ec2-954d-6dd59da308d3" absoluteBounds="6.5, 11.375, 1.5, 6.5114900716145847" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Reconcile" />
+        <nestedChildShapes>
+          <elementListCompartment Id="4d05bc74-7b4a-42f6-bc8a-ece04d23968c" absoluteBounds="6.515, 11.885, 1.4700000000000002, 5.466573079427083" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="5c5e240c-98a6-442c-a47b-4fb032de6740" absoluteBounds="6.515, 17.361573079427082, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="b6ccad23-fb39-4e52-a389-f0e8dd6051ee" absoluteBounds="6.515, 17.579031575520833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="17bd62c3-36b7-4920-8022-c9663e0053a2" absoluteBounds="6.5, 12.375, 1.5, 3.8819327799479169" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Recitem" />
+        <nestedChildShapes>
+          <elementListCompartment Id="91c10b87-c785-466c-a690-231ecf6b5e9b" absoluteBounds="6.515, 12.885, 1.4700000000000002, 2.8370157877604165" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="8ba67234-f72f-44de-8c09-cf8c78892f37" absoluteBounds="6.515, 15.732015787760417, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="2c8f5b55-46dd-4b47-a045-bda8c73c6906" absoluteBounds="6.515, 15.949474283854165, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="034ce110-d1f7-439d-947a-a193d85bfd26" absoluteBounds="4.5, 14.375, 1.5, 2.0741121419270847" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Quickprocedure" />
+        <nestedChildShapes>
+          <elementListCompartment Id="ad27984c-11ee-4572-9959-51bae459f4b4" absoluteBounds="4.515, 14.885, 1.4700000000000002, 1.0291951497395833" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="d53f66d3-dac5-4be5-b00d-e4eb80d5b6ad" absoluteBounds="4.515, 15.924195149739584, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="ce2b46b6-a648-4c32-a4d4-7089b79e60ca" absoluteBounds="4.515, 16.141653645833333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="e48227ce-e22d-48f0-a6fb-f3c97f1d3bd7" absoluteBounds="0.5, 15.375, 1.5, 2.0741121419270847" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Quickpremium" />
+        <nestedChildShapes>
+          <elementListCompartment Id="2750b87a-718a-4b03-893a-0e4f7fbbf30b" absoluteBounds="0.515, 15.885, 1.4700000000000002, 1.0291951497395833" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="74509825-60fb-4cdb-806d-ecdcff578bdf" absoluteBounds="0.515, 16.924195149739582, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="bde01c99-8407-4a62-924f-927283817db1" absoluteBounds="0.515, 17.141653645833333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="b28edccc-930a-4c14-aeb7-438e83f09aa2" absoluteBounds="0.5, 8.375, 1.5, 1.745417480468749" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Province" />
+        <nestedChildShapes>
+          <elementListCompartment Id="6857ea03-1562-4285-a02f-6aff97897442" absoluteBounds="0.515, 8.885, 1.4700000000000002, 0.70050048828125" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="70906676-e8fc-45f8-aad7-0370a0a3483c" absoluteBounds="0.515, 9.59550048828125, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="f087429d-c837-4fea-b142-9a81d061f517" absoluteBounds="0.515, 9.812958984375, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="f60a6740-7112-41cc-a642-aaeb07a1eeb3" absoluteBounds="2.5, 13.375, 1.5, 2.0741121419270829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Provider" />
+        <nestedChildShapes>
+          <elementListCompartment Id="1f73a2ae-907c-4f03-a6d0-bd054efd583e" absoluteBounds="2.515, 13.885, 1.4700000000000002, 1.0291951497395833" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="9376e79f-25d9-4788-b0cf-1a5169d85d4f" absoluteBounds="2.515, 14.924195149739584, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="545894e0-ddb2-4764-93cc-728c5813b0ba" absoluteBounds="2.515, 15.141653645833333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="1ffb680b-dd83-40cb-a5fb-b8b8c4ad381a" absoluteBounds="2.5, 14.375, 1.5, 1.6210701497395821" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Paycode" />
+        <nestedChildShapes>
+          <elementListCompartment Id="76aa46c3-9999-40d5-b9a5-1c2d31a0b19c" absoluteBounds="2.515, 14.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="4ac1398a-003e-4cb9-8edb-d4910edf3cc5" absoluteBounds="2.515, 15.431153157552084, 1.4700000000000002, 0.22745849609375002" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="c3ab3201-b9fc-4a44-afcf-ee2fd68389b2" absoluteBounds="2.515, 15.668611653645833, 1.4700000000000002, 0.22745849609375002" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="e172f4ed-423b-443f-beb5-d965d434df8a" absoluteBounds="0.5, 13.375, 1.5, 4.3749747721354169" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Patient" />
+        <nestedChildShapes>
+          <elementListCompartment Id="44ac224a-faf3-4836-8712-155869e6841c" absoluteBounds="0.515, 13.885, 1.4700000000000002, 3.330057779947917" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="0e9d22c6-3bd2-4d07-8f44-8247da664be3" absoluteBounds="0.515, 17.225057779947917, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="b9cf5472-34ed-48d5-9b02-2036e096e976" absoluteBounds="0.515, 17.442516276041665, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="22848dad-6b38-4bcb-a2a9-ae639f79e5c3" absoluteBounds="0.5, 12.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Myscheduleofbenefit" />
+        <nestedChildShapes>
+          <elementListCompartment Id="7315e885-7c33-4517-b635-3ed56953a875" absoluteBounds="0.515, 12.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="3a77f284-4914-446d-b16b-9db0a1e0ce37" absoluteBounds="0.515, 13.431153157552084, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="49be28bb-e10c-423c-8593-266b3286ba2c" absoluteBounds="0.515, 13.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="3710b299-a95c-49c0-8ac4-fbd3a544b881" absoluteBounds="6.5, 13.375, 1.5, 2.0741121419270829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Myfacility" />
+        <nestedChildShapes>
+          <elementListCompartment Id="c08c75c4-38e3-47a3-aaf5-3009b0d322c9" absoluteBounds="6.515, 13.885, 1.4700000000000002, 1.0291951497395833" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="efa559d2-19e9-44c3-b524-4e3cc60a463d" absoluteBounds="6.515, 14.924195149739584, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="5d08b84e-c04b-43a5-9946-6520c8053b23" absoluteBounds="6.515, 15.141653645833333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="757bc48f-3735-4274-b0fe-a06d848743e0" absoluteBounds="0.5, 10.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Mydiagnosticcode" />
+        <nestedChildShapes>
+          <elementListCompartment Id="8ebbc0ad-85cf-42a6-b417-b3f98fea8fdb" absoluteBounds="0.515, 10.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="d892ba97-4fc0-4e6a-8dbd-f9031c087f85" absoluteBounds="0.515, 11.431153157552084, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="e64f1783-5466-4490-ba88-c329a5f1268a" absoluteBounds="0.515, 11.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="e138a960-f0b0-473e-91c2-56273d18a7ac" absoluteBounds="0.5, 9.375, 1.5, 4.5393221028645829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Mriclaim" />
+        <nestedChildShapes>
+          <elementListCompartment Id="f97e6a37-73a2-42c3-b9c4-a2ec95fed043" absoluteBounds="0.515, 9.885, 1.4700000000000002, 3.330057779947917" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="f105ee7d-35a4-4faf-940d-5d472fb3b725" absoluteBounds="0.515, 13.225057779947917, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="d09823cc-aee3-4c3b-bdad-1fc6ea45fb8b" absoluteBounds="0.515, 13.442516276041665, 1.4700000000000002, 0.37180582682291696" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="a14fd05f-35dc-4599-9dad-1d3ae593dd05" absoluteBounds="4.5, 12.375, 1.5, 3.5532381184895812" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Mribill" />
+        <nestedChildShapes>
+          <elementListCompartment Id="b4cb15b6-aa09-48d0-b24b-5017e2a5cf03" absoluteBounds="4.515, 12.885, 1.4700000000000002, 2.343973795572917" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="f29d7d9c-47f9-4cf5-aec1-1f833c9d2a0c" absoluteBounds="4.515, 15.238973795572917, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="509e5135-4acc-4d17-ae1e-74fb21dc6662" absoluteBounds="4.515, 15.456432291666665, 1.4700000000000002, 0.37180582682291652" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="1d41a413-c977-441b-89f6-2ce8929e60d9" absoluteBounds="6.5, 14.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Mohreject" />
+        <nestedChildShapes>
+          <elementListCompartment Id="63d8c01b-5e8d-40d7-8afa-c8ce15fa3c6f" absoluteBounds="6.515, 14.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="82951f19-a7c7-4710-8dde-1bb9a05d2812" absoluteBounds="6.515, 15.431153157552084, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="6c7f33bc-e0e3-4a86-a686-7e636f23dde3" absoluteBounds="6.515, 15.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="5d6c9a0e-ce70-4ac1-a722-3d0e5b03be73" absoluteBounds="3.5, 16.375, 1.5, 1.5810701497395847" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Mohreconcile" />
+        <nestedChildShapes>
+          <elementListCompartment Id="591b40ad-d138-469a-b0aa-668c0a66427d" absoluteBounds="3.515, 16.884999999999998, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="20c9274f-3ee7-4a11-b165-1745473e22e8" absoluteBounds="3.515, 17.431153157552082, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="2037a67d-9ee2-45b4-b70c-3de35f2852a3" absoluteBounds="3.515, 17.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="0e98046a-b9f3-4cac-912a-d82d885df132" absoluteBounds="1.75, 11.25, 1.5, 1.745417480468749" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Mohoffice" />
+        <nestedChildShapes>
+          <elementListCompartment Id="4db8ae42-7b9f-4761-b21e-30b2974a01d5" absoluteBounds="1.7650000000000001, 11.76, 1.4700000000000002, 0.70050048828125" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="de707604-54ce-4a03-bc63-a5d9b9662e30" absoluteBounds="1.7650000000000001, 12.47050048828125, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="28676dea-04ad-4bd3-bc7d-d667f33e614a" absoluteBounds="1.7650000000000001, 12.687958984375, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="14454d1a-4907-4cba-aae6-3abc60c7580c" absoluteBounds="2.5, 12.375, 1.5, 2.4028068033854151" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Groupmd" />
+        <nestedChildShapes>
+          <elementListCompartment Id="4fc3c176-2231-4dbd-a7a1-ccdb44e1bc87" absoluteBounds="2.515, 12.885, 1.4700000000000002, 1.3578898111979165" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="d74edd66-6d5e-48f2-ad53-793dc45e556d" absoluteBounds="2.515, 14.252889811197917, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="3bc89080-d866-4f68-bc47-9b934f6cbcb2" absoluteBounds="2.515, 14.470348307291665, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="29e94ead-d57c-44da-a450-86e86c8299ab" absoluteBounds="2.5, 11.375, 1.5, 1.9097648111979169" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Facility" />
+        <nestedChildShapes>
+          <elementListCompartment Id="d8fa5edb-a1c6-4c03-b3cd-182a57ccbe4b" absoluteBounds="2.515, 11.885, 1.4700000000000002, 0.86484781901041674" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="64faba8f-d2c5-47c4-895d-aaec25683479" absoluteBounds="2.515, 12.759847819010417, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="4824d5a7-beeb-4616-9218-b7c8e51426c7" absoluteBounds="2.515, 12.977306315104167, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="64864374-3de2-4f58-950b-056492f8148e" absoluteBounds="4.5, 10.375, 1.5, 4.0462801106770829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Edtfile" />
+        <nestedChildShapes>
+          <elementListCompartment Id="179b8364-e44b-4991-9069-9de3d40904b5" absoluteBounds="4.515, 10.885, 1.4700000000000002, 3.001363118489583" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="d879721d-0f3c-48a0-aabf-1b9f0f5ee29a" absoluteBounds="4.515, 13.896363118489582, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="7fa6dae6-4c5b-4b30-aad8-9735aac9f0a8" absoluteBounds="4.515, 14.113821614583333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="a7618b95-714e-47a1-b2db-c024f2c32045" absoluteBounds="0.5, 14.375, 1.5, 2.8958487955729169" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Edt" />
+        <nestedChildShapes>
+          <elementListCompartment Id="a79bdca6-07f4-4eb3-a303-948906cef70f" absoluteBounds="0.515, 14.885, 1.4700000000000002, 1.8509318033854167" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="4c178d6d-7931-4e02-9278-f4c8829eb147" absoluteBounds="0.515, 16.745931803385417, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="4a943bd9-59c2-4409-adcc-0de947fa6e33" absoluteBounds="0.515, 16.963390299479165, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="1d02cd81-4c83-4225-9b49-41c780623f6f" absoluteBounds="2.5, 9.375, 1.5, 3.8819327799479151" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Doctor" />
+        <nestedChildShapes>
+          <elementListCompartment Id="d95f2e1b-0d13-43f1-8860-f52f9e54c8ad" absoluteBounds="2.515, 9.885, 1.4700000000000002, 2.837015787760417" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="9563ec46-318f-442e-8819-c1e076fb2096" absoluteBounds="2.515, 12.732015787760417, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="cdf31f4e-80a4-43bb-8565-b021900771e3" absoluteBounds="2.515, 12.949474283854165, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="8bf8977a-361a-4143-9daf-0a2d8cb5ac71" absoluteBounds="4.5, 11.375, 1.5, 1.5810701497395829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Diagnosticcode" />
+        <nestedChildShapes>
+          <elementListCompartment Id="97f472d6-2a67-45c7-bc5a-2e14b0e9b778" absoluteBounds="4.515, 11.885, 1.4700000000000002, 0.53615315755208326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="499698d1-0061-4eaa-a4b9-e68d35c447f4" absoluteBounds="4.515, 12.431153157552084, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="ac1168ee-9e65-4f8b-b922-8e1138a11883" absoluteBounds="4.515, 12.648611653645833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="4e9d75c2-037b-468f-939d-3d5951be9d4d" absoluteBounds="4.5, 9.375, 1.5, 4.0462801106770829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Claim" />
+        <nestedChildShapes>
+          <elementListCompartment Id="14912e80-1feb-4d90-8a80-3ab063f48879" absoluteBounds="4.515, 9.885, 1.4700000000000002, 3.001363118489583" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="12525587-89bc-4140-a08d-d22f8cdc0022" absoluteBounds="4.515, 12.896363118489582, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="a67df429-6af4-4377-8e25-cb1a89d1cdea" absoluteBounds="4.515, 13.113821614583333, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="30e46799-a307-4068-a8f6-a52973a70378" absoluteBounds="6.5, 10.375, 1.5, 4.210627441406249" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Bill" />
+        <nestedChildShapes>
+          <elementListCompartment Id="a3927380-dc57-4ae9-84bd-d268f9dbb8eb" absoluteBounds="6.515, 10.885, 1.4700000000000002, 3.16571044921875" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="2021a4f1-acfa-486b-a35a-bd006ca75c80" absoluteBounds="6.515, 14.06071044921875, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="c8c21be3-9553-43e0-8a27-69476b89890b" absoluteBounds="6.515, 14.2781689453125, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="902b97d4-d75c-4bf9-a594-4ddc8489e078" absoluteBounds="4.5, 8.375, 1.5, 3.5532381184895829" fillColor="225, 249, 128, 67" outlineColor="213, 71, 0" textColor="White">
+        <DomainClassMoniker name="/iBillEntities/Batch" />
+        <nestedChildShapes>
+          <elementListCompartment Id="e4985664-066f-41e8-b78f-a2b09496a6b9" absoluteBounds="4.515, 8.885, 1.4700000000000002, 2.508321126302083" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="76a7b92d-c3f1-4a3d-a1cb-6d9d78713040" absoluteBounds="4.515, 11.403321126302082, 1.4700000000000002, 0.20745849609375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="d50e62ec-56e4-4403-83d5-637a3242f538" absoluteBounds="4.515, 11.620779622395833, 1.4700000000000002, 0.20745849609375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <associationConnector edgePoints="[(0.5 : 11.6446610514323); (0.40625 : 11.6446610514323); (0.40625 : 8.28125); (7.25 : 8.28125); (7.25 : 8.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+        <AssociationMoniker Id="446d8fca-5412-4d3c-b4f9-a8af3474b5c8" />
+        <relativeChildShapes />
+        <nodes>
+          <classShapeMoniker Id="e138a960-f0b0-473e-91c2-56273d18a7ac" />
+          <classShapeMoniker Id="dfda8e6a-8d07-4104-8cf1-d2eb089d4593" />
+        </nodes>
+      </associationConnector>
+      <associationConnector edgePoints="[(6 : 13.2198767089844); (6.5 : 13.2198767089844)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+        <AssociationMoniker Id="fbc35166-f172-4bfa-bdda-9598824b0d52" />
+        <relativeChildShapes />
+        <nodes>
+          <classShapeMoniker Id="a14fd05f-35dc-4599-9dad-1d3ae593dd05" />
+          <classShapeMoniker Id="dfda8e6a-8d07-4104-8cf1-d2eb089d4593" />
+        </nodes>
+      </associationConnector>
+    </nestedChildShapes>
+  </entityDiagramsDiagram>
+</EntityDiagrams>
