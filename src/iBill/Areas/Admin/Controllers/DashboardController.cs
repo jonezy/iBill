@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace iBill.Areas.Admin.Controllers
-{
-    public class DashboardController : Controller
-    {
-        //
-        // GET: /Admin/Default1/
+namespace iBill.Areas.Admin.Controllers {
+  [RequiresAuthentication]
+  public class DashboardController : BaseController {
 
-        public ActionResult Index()
-        {
-            return View();
-        }
-
+    public ActionResult Index() {
+      return View();
     }
+
+  }
 }

@@ -290,6 +290,14 @@ namespace iBill.Data
 			}
 		}
 		
+		public IQueryable<Adminuser> Adminusers 
+		{
+			get
+			{
+				return this.GetAll<Adminuser>();
+			}
+		}
+		
 		public static BackendConfiguration GetBackendConfiguration()
 		{
 			BackendConfiguration backend = new BackendConfiguration();
@@ -419,6 +427,10 @@ namespace iBill.Data
 			get;
 		}
 		IQueryable<Batch> Batches
+		{
+			get;
+		}
+		IQueryable<Adminuser> Adminusers
 		{
 			get;
 		}
@@ -4504,6 +4516,77 @@ namespace iBill.Data
 			set
 			{
 				this._batchStatus = value;
+			}
+		}
+		
+	}
+}
+namespace iBill.Data	
+{
+	public partial class Adminuser
+	{
+		private int _id;
+		public virtual int Id
+		{
+			get
+			{
+				return this._id;
+			}
+			set
+			{
+				this._id = value;
+			}
+		}
+		
+		private string _username;
+		public virtual string Username
+		{
+			get
+			{
+				return this._username;
+			}
+			set
+			{
+				this._username = value;
+			}
+		}
+		
+		private string _password;
+		public virtual string Password
+		{
+			get
+			{
+				return this._password;
+			}
+			set
+			{
+				this._password = value;
+			}
+		}
+		
+		private bool _active;
+		public virtual bool Active
+		{
+			get
+			{
+				return this._active;
+			}
+			set
+			{
+				this._active = value;
+			}
+		}
+		
+		private DateTime _timestamp;
+		public virtual DateTime Timestamp
+		{
+			get
+			{
+				return this._timestamp;
+			}
+			set
+			{
+				this._timestamp = value;
 			}
 		}
 		

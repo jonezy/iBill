@@ -1,0 +1,6 @@
+﻿@if (TempData["Message"] != null) {
+  <div class="alert @TempData["CSS"]">
+    <a href="#" class="close" data-dismiss="alert">x</a>
+    @TempData["Message"]
+  </div>
+}

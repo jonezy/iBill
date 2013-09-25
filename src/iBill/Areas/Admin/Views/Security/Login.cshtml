@@ -1,14 +1,24 @@
-﻿@{
-    Layout = "~/Areas/Admin/Views/Shared/_LoginLayout.cshtml";
-    ViewBag.Title = "Login";
+﻿@model iBill.Areas.Admin.Models.LoginViewModel
+@{
+  Layout = "~/Areas/Admin/Views/Shared/_LoginLayout.cshtml";
+  ViewBag.Title = "Login";
 }
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="form-control" placeholder="Email address" autofocus>
-        <input type="password" class="form-control" placeholder="Password">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
+
+
+
+
+@using (Html.BeginForm("index", "security", FormMethod.Post, new { @class = "form-signin" })) {
+  <h2 class="form-signin-heading">Please sign in</h2>
+
+  { Html.RenderPartial("Messages"); }
+    
+  @Html.TextBoxFor(m => m.Username, new {@class="form-control", @placeholder="Username"})
+  @Html.PasswordFor(m => m.Password, new {@class="form-control", @placeholder="Password"})
+  
+  <label class="checkbox">
+    @Html.CheckBoxFor(m => m.RememberMe)
+    Remember me
+  </label>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+}

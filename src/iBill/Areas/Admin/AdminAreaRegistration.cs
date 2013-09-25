@@ -12,7 +12,7 @@ namespace iBill.Areas.Admin {
       context.MapRoute(
           "Admin_default",
           "admin/{controller}/{action}/{id}",
-          new { action = "Index", id = UrlParameter.Optional }
+          new { action = "index", controller = "dashboard", id = UrlParameter.Optional }
       );
     }
   }
